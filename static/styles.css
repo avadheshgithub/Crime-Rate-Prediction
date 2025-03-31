@@ -2,14 +2,12 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: 'Lora', serif;
-    background-color: #fff2df;
     color: black;   
 }
 
-header{    
-    background-color:  #002244;
-    color: #fff2df; 
-    border-bottom: solid 3px;
+header{        
+    color: #f40d0d; 
+    border-bottom: solid 1px;
 }
 .title{
     margin: 0px;
@@ -71,7 +69,7 @@ select{
     font-family: 'Lora', serif;
     font-style: oblique;
     font-weight: 900;
-    background-color: #002244;
+    background-color: #f83333;
     color: #fff2df;   
     border: solid 2px #ffe5be;    
     border-radius: 10px;

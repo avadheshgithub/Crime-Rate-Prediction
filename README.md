@@ -47,14 +47,6 @@ The system uses scikit-learn's Random Forest Regression model, which takes year,
 - Click on the "Predict" button to generate the crime rate prediction.
 - The predicted crime rate will be displayed on the screen.
 
-## Contributing
-
-Contributions are welcome! If you want to contribute to this project, please follow these steps:
-
-- Fork the repository.
-- Create a new branch for your feature or bug fix.
-- Make the necessary changes and commit them.
-- Submit a pull request, clearly explaining the changes you made.
 
 Please ensure that your contributions adhere to the project's coding conventions and are accompanied by appropriate tests.
 

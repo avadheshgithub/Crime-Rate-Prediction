@@ -5,8 +5,9 @@ body{
     color: black;   
 }
 
-header{        
-    color: #f40d0d; 
+header{    
+    background-color:  #002244;    
+    color: #fff2df; 
     border-bottom: solid 1px;
 }
 .title{
@@ -69,7 +70,7 @@ select{
     font-family: 'Lora', serif;
     font-style: oblique;
     font-weight: 900;
-    background-color: #f83333;
+    background-color:#002244;
     color: #fff2df;   
     border: solid 2px #ffe5be;    
     border-radius: 10px;

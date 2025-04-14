@@ -1,5 +1,54 @@
-# Crime Rate Predictor - Unlock Safety: Reduce Crime Rate Together
+# 🔍 Crime Prediction using Machine Learning
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![ML Project](https://img.shields.io/badge/Machine%20Learning-Crime%20Prediction-green)
+![Random Forest](https://img.shields.io/badge/Model-Random%20Forest-orange)
+![Flask](https://img.shields.io/badge/API-Flask-blue)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+---
+
+## 📖 Overview
+
 Crime Rate Predictor is an application that uses machine learning techniques to predict crime rates in 19 Indian metropolitan cities. The goal of this project is to assist law enforcement agencies in understanding crime patterns and allocating resources effectively to reduce crime rates and improve public safety.
+
+> 📈 **Performance Highlights:**  
+> - **MAE:** 2.49143  
+> - **R² Score:** 0.93201  
+> - **Response Time:** ~1.5 seconds (Flask API)
+
+---
+
+## 🔧 Tech Stack
+
+| Category            | Tools Used                          |
+|---------------------|-------------------------------------|
+| 📊 ML Models        | Random Forest, RNN-GRU, SVM, KNN, LSTM, Clustering |
+| 💻 Language         | Python 3.8+                         |
+| 🛠️ Libraries        | Pandas, Scikit-learn, NumPy, Flask, Matplotlib |
+| 🌐 Framework        | Flask (REST API)                    |
+| 📁 Dataset Source   | National Crime Records Bureau (NCRB) India |
+| 📈 Visualization    | Matplotlib, Seaborn                 |
+
+---
+
+## 🧠 ML Models Compared
+
+A variety of ML models were evaluated for crime prediction:
+
+| Model         | Accuracy / MAE | Notes |
+|---------------|----------------|-------|
+| **Random Forest** (CrimeNavigator) | MAE: 2.49, R²: 0.93 | Fast, scalable, handles 19 cities |
+| RNN-GRU       | ~85% Accuracy | Temporal, scalability issues |
+| SVM           | 70–80%        | High computation |
+| KNN           | ~75%          | Simple, low precision |
+| Clustering    | ~80%          | Spatial hotspots only |
+| LSTM          | -             | Sequential potential |
+
+📊 **See Figure 1 below for visual comparison of all models.**
+
+---
 
 # Web Interface
 ![Model](https://github.com/user-attachments/assets/4dd07cdb-ca7e-4097-ad9d-ac4eaeade436)
@@ -39,14 +88,6 @@ The system uses scikit-learn's Random Forest Regression model, which takes year,
 
    ```shell
    python app.py
-
-
-## Usage
-
-- Launch the application by running `app.py`.
-- Select the desired city, crime type, and year for which you want to predict the crime rate.
-- Click on the "Predict" button to generate the crime rate prediction.
-- The predicted crime rate will be displayed on the screen.
 
 
 ## Contact

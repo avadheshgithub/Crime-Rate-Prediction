@@ -11,7 +11,7 @@
 
 ## 📖 Overview
 
-Crime Rate Predictor is an application that uses machine learning techniques to predict crime rates in 19 Indian metropolitan cities. The goal of this project is to assist law enforcement agencies in understanding crime patterns and allocating resources effectively to reduce crime rates and improve public safety.
+Crime Rate Predictor is an application that uses machine learning techniques to predict crime rates in 19 Indian metropolitan cities. The goal of this project is to assist law enforcement agencies in understanding crime patterns and allocating resources effectively to reduce crime rates as well as improve public safety.
 
 > 📈 **Performance Highlights:**  
 > - **MAE:** 2.49143  
